@@ -1,0 +1,2796 @@
+[
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.AnalisysController",
+    "Method": "GetAnalisys",
+    "RelativePath": "api/Analisys",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.AnalisysController",
+    "Method": "GetAnalisysAssigned",
+    "RelativePath": "api/Analisys/AnalisysAssigned",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.AnalisysController",
+    "Method": "GetAnalisysByArea",
+    "RelativePath": "api/Analisys/AnalisysByArea",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "areaId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.AnalisysController",
+    "Method": "GetAnalisysByNotArea",
+    "RelativePath": "api/Analisys/AnalisysByNotArea",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "areaId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.AnalisysController",
+    "Method": "GetAnalisysControls",
+    "RelativePath": "api/Analisys/AnalisysControls",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "analisysId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.AnalisysController",
+    "Method": "AssingAnalisys",
+    "RelativePath": "api/Analisys/AssingAnalisys",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "areaId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "analisysId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "action",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.AnalisysController",
+    "Method": "AssingControls",
+    "RelativePath": "api/Analisys/AssingControls",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Laboratorios.Core.Entities.AnalisysControls",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.AnalisysController",
+    "Method": "EditAnalisys",
+    "RelativePath": "api/Analisys/edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "analisys",
+        "Type": "Laboratorios.Core.Entities.Analisys",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.AnalisysController",
+    "Method": "InsertAnalisys",
+    "RelativePath": "api/Analisys/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "analisys",
+        "Type": "Laboratorios.Core.Entities.Analisys",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.AppointmentController",
+    "Method": "GetAppointment",
+    "RelativePath": "api/Appointment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.AppointmentController",
+    "Method": "EditAppointment",
+    "RelativePath": "api/Appointment/edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appointment",
+        "Type": "Laboratorios.Core.Entities.Appointment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.AppointmentController",
+    "Method": "InsertAppointment",
+    "RelativePath": "api/Appointment/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appointment",
+        "Type": "Laboratorios.Core.Entities.Appointment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.AreaController",
+    "Method": "GetArea",
+    "RelativePath": "api/Area",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.AreaController",
+    "Method": "GetAreaAssigned",
+    "RelativePath": "api/Area/AreaAssigned",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.AreaController",
+    "Method": "GetAreaByMatrix",
+    "RelativePath": "api/Area/AreaByMatrix",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "matrixId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.AreaController",
+    "Method": "GetAreaByNotMatrix",
+    "RelativePath": "api/Area/AreaByNotMatrix",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "matrixId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.AreaController",
+    "Method": "AssingArea",
+    "RelativePath": "api/Area/AssingArea",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "matrixId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "areaId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "action",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.AreaController",
+    "Method": "EditArea",
+    "RelativePath": "api/Area/edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "area",
+        "Type": "Laboratorios.Core.Entities.Area",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.AreaController",
+    "Method": "InsertArea",
+    "RelativePath": "api/Area/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "area",
+        "Type": "Laboratorios.Core.Entities.Area",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.AutenticacionController",
+    "Method": "Login",
+    "RelativePath": "api/Autenticacion/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "credenciales",
+        "Type": "Laboratorios.Core.ViewModels.Credenciales",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.CategoryController",
+    "Method": "GetCategory",
+    "RelativePath": "api/Category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.CategoryController",
+    "Method": "InsertCategory",
+    "RelativePath": "api/Category/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "Laboratorios.Core.Entities.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.ConfigurationRecipesController",
+    "Method": "GetConfigurationRecipes",
+    "RelativePath": "api/ConfigurationRecipes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.ConfigurationRecipesController",
+    "Method": "InsertConfigurationRecipes",
+    "RelativePath": "api/ConfigurationRecipes/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "configuration",
+        "Type": "Laboratorios.Core.Entities.ConfigurationRecipes",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.ContainerController",
+    "Method": "GetContainer",
+    "RelativePath": "api/Container",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.ContainerController",
+    "Method": "InsertContainer",
+    "RelativePath": "api/Container/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Container",
+        "Type": "Laboratorios.Core.Entities.Container",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.CustomerController",
+    "Method": "GetCustomer",
+    "RelativePath": "api/Customer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.CustomerController",
+    "Method": "InsertCustomer",
+    "RelativePath": "api/Customer/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Customer",
+        "Type": "Laboratorios.Core.Entities.Customer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.DocumentChangesLogController",
+    "Method": "GetDocumentChangesLog",
+    "RelativePath": "api/DocumentChangesLog",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.DocumentTypeController",
+    "Method": "GetDocumentType",
+    "RelativePath": "api/DocumentType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.DocumentTypeController",
+    "Method": "InsertDocumentType",
+    "RelativePath": "api/DocumentType/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentType",
+        "Type": "Laboratorios.Core.Entities.DocumentType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.DocumentTypeController",
+    "Method": "saveDocument",
+    "RelativePath": "api/DocumentType/saveDocument",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "documentTypeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.EquipmentController",
+    "Method": "GetEquipment",
+    "RelativePath": "api/Equipment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.EquipmentController",
+    "Method": "delete",
+    "RelativePath": "api/Equipment/deleteCertificate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Laboratorios.Core.Entities.EquipmentCertificate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.EquipmentController",
+    "Method": "GetCVMProgram",
+    "RelativePath": "api/Equipment/GetCVMProgram",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.EquipmentController",
+    "Method": "InsertEquipment",
+    "RelativePath": "api/Equipment/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "equipment",
+        "Type": "Laboratorios.Core.Entities.Equipment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.EquipmentController",
+    "Method": "insert",
+    "RelativePath": "api/Equipment/insertCertificate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "certificateId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "equipmentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "certificate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "url",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.EquipmentCalibrationController",
+    "Method": "GetEquipmentCalibration",
+    "RelativePath": "api/EquipmentCalibration",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.EquipmentCalibrationController",
+    "Method": "InsertEquipmentCalibration",
+    "RelativePath": "api/EquipmentCalibration/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "equipmentCalibration",
+        "Type": "Laboratorios.Core.Entities.EquipmentCalibration",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Syncfusion.Blazor.FileManager.FileManagerController",
+    "Method": "Download",
+    "RelativePath": "api/FileManager/Download",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "downloadInput",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Syncfusion.Blazor.FileManager.FileManagerController",
+    "Method": "FileOperations",
+    "RelativePath": "api/FileManager/FileOperations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "args",
+        "Type": "Syncfusion.Blazor.FileManager.Base.FileManagerDirectoryContent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Syncfusion.Blazor.FileManager.FileManagerController",
+    "Method": "GetImage",
+    "RelativePath": "api/FileManager/GetImage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Path",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Action",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NewName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Names",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Size",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "PreviousName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DateModified",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "DateCreated",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "HasChild",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsFile",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FilterPath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FilterId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ParentId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetPath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RenameFiles",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "UploadFiles",
+        "Type": "System.Collections.Generic.IList\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CaseSensitive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "SearchString",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShowHiddenItems",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Data",
+        "Type": "Syncfusion.Blazor.FileManager.Base.FileManagerDirectoryContent[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.Path",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.Action",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.NewName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.Names",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.Size",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.PreviousName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.DateModified",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.DateCreated",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.HasChild",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.IsFile",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.Type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.FilterPath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.FilterId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.ParentId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.TargetPath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.RenameFiles",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.UploadFiles",
+        "Type": "System.Collections.Generic.IList\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.CaseSensitive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.SearchString",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.ShowHiddenItems",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.Data",
+        "Type": "Syncfusion.Blazor.FileManager.Base.FileManagerDirectoryContent[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.TargetData",
+        "Type": "Syncfusion.Blazor.FileManager.Base.FileManagerDirectoryContent",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.Permission",
+        "Type": "Syncfusion.Blazor.FileManager.Base.AccessPermission",
+        "IsRequired": false
+      },
+      {
+        "Name": "Permission",
+        "Type": "Syncfusion.Blazor.FileManager.Base.AccessPermission",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Syncfusion.Blazor.FileManager.FileManagerController",
+    "Method": "Upload",
+    "RelativePath": "api/FileManager/Upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "path",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "uploadFiles",
+        "Type": "System.Collections.Generic.IList\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "action",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.FilesController",
+    "Method": "GetFileManager",
+    "RelativePath": "api/Files",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.FilesController",
+    "Method": "Download",
+    "RelativePath": "api/Files/Download",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "downloadInput",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.FilesController",
+    "Method": "GetDocument",
+    "RelativePath": "api/Files/GetDocument",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "path",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "isPDF",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.FilesController",
+    "Method": "GetImage",
+    "RelativePath": "api/Files/GetImage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "path",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.FilesController",
+    "Method": "Upload",
+    "RelativePath": "api/Files/Upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "path",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "uploadFiles",
+        "Type": "System.Collections.Generic.IList\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "action",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.IncomeController",
+    "Method": "GetIncome",
+    "RelativePath": "api/Income",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.IncomeController",
+    "Method": "GetIncomeById",
+    "RelativePath": "api/Income/{incomeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incomeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.IncomeController",
+    "Method": "DeleteIncomeDetail",
+    "RelativePath": "api/Income/DeleteIncomeDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incomeDetail",
+        "Type": "Laboratorios.Core.Entities.IncomeDetail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.IncomeController",
+    "Method": "GetDetailsIncome",
+    "RelativePath": "api/Income/Details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.IncomeController",
+    "Method": "EditIncome",
+    "RelativePath": "api/Income/edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "income",
+        "Type": "Laboratorios.Core.Entities.Income",
+        "IsRequired": true
+      },
+      {
+        "Name": "draft",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.IncomeController",
+    "Method": "InsertIncome",
+    "RelativePath": "api/Income/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "income",
+        "Type": "Laboratorios.Core.Entities.Income",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.IncomeController",
+    "Method": "UpdateDateIncome",
+    "RelativePath": "api/Income/UpdateDateIncome",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "income",
+        "Type": "Laboratorios.Core.ViewModels.IncomeView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.IncomeController",
+    "Method": "UpdateSample",
+    "RelativePath": "api/Income/UpdateSample",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sample",
+        "Type": "Laboratorios.Core.Entities.Sample",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.IncomeControlSupplyController",
+    "Method": "GetIncomeControlSupply",
+    "RelativePath": "api/IncomeControlSupply",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.IncomeControlSupplyController",
+    "Method": "InsertIncomeControlSupply",
+    "RelativePath": "api/IncomeControlSupply/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incomeControlSupply",
+        "Type": "Laboratorios.Core.Entities.IncomeControlSupply",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.IncomeControlSupplyDetailController",
+    "Method": "GetIncomeControlSupplyDetail",
+    "RelativePath": "api/IncomeControlSupplyDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incomeControlId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.IncomeControlSupplyDetailController",
+    "Method": "InsertIncomeControlSupplyDetail",
+    "RelativePath": "api/IncomeControlSupplyDetail/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incomeControlSupply",
+        "Type": "Laboratorios.Core.Entities.IncomeControlSupplyDetail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.LocationController",
+    "Method": "GetLocation",
+    "RelativePath": "api/Location",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.LocationController",
+    "Method": "InsertLocation",
+    "RelativePath": "api/Location/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "location",
+        "Type": "Laboratorios.Core.Entities.Location",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.MasterListController",
+    "Method": "GetMasterList",
+    "RelativePath": "api/MasterList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.MasterListController",
+    "Method": "GetHistory",
+    "RelativePath": "api/MasterList/getHistory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.MasterListController",
+    "Method": "upload",
+    "RelativePath": "api/MasterList/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "masterDocument",
+        "Type": "Microsoft.AspNetCore.Http.IFormCollection",
+        "IsRequired": false
+      },
+      {
+        "Name": "action",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "changeVersion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "documentChanges",
+        "Type": "Microsoft.AspNetCore.Http.IFormCollection",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.MatrixController",
+    "Method": "GetMatrix",
+    "RelativePath": "api/Matrix",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.MatrixController",
+    "Method": "EditMatrix",
+    "RelativePath": "api/Matrix/edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "matrix",
+        "Type": "Laboratorios.Core.Entities.Matrix",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.MatrixController",
+    "Method": "InsertMatrix",
+    "RelativePath": "api/Matrix/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "matrix",
+        "Type": "Laboratorios.Core.Entities.Matrix",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.MetodologyController",
+    "Method": "GetMetodology",
+    "RelativePath": "api/Metodology",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.MetodologyController",
+    "Method": "EditMetodology",
+    "RelativePath": "api/Metodology/edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "metodology",
+        "Type": "Laboratorios.Core.Entities.Metodology",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.MetodologyController",
+    "Method": "InsertMetodology",
+    "RelativePath": "api/Metodology/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "metodology",
+        "Type": "Laboratorios.Core.Entities.Metodology",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.MicrobiologyResultsController",
+    "Method": "GetMicrobiologyResults",
+    "RelativePath": "api/MicrobiologyResults",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.MicrobiologyResultsController",
+    "Method": "GetAllResultsMicrobiology",
+    "RelativePath": "api/MicrobiologyResults/GetAllResultsMicrobiology",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "date",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.MicrobiologyResultsController",
+    "Method": "GetMicrobiologyResults",
+    "RelativePath": "api/MicrobiologyResults/GetAnalisysMicrobiology",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incomeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.MicrobiologyResultsController",
+    "Method": "GetBlankMicrobiologyResults",
+    "RelativePath": "api/MicrobiologyResults/GetBlankAnalisysMicrobiology",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "matrixId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.MicrobiologyResultsController",
+    "Method": "InsertMicrobiologyResults",
+    "RelativePath": "api/MicrobiologyResults/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "microbiologyResults",
+        "Type": "System.Collections.Generic.List\u00601[[Laboratorios.Core.Entities.MicrobiologyResults, Laboratorios.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.MicrobiologyResultsController",
+    "Method": "GetSamples",
+    "RelativePath": "api/MicrobiologyResults/samples",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.PackageController",
+    "Method": "GetPackages",
+    "RelativePath": "api/Package",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.PackageController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/Package",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "package",
+        "Type": "Laboratorios.Core.Entities.Package",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.PackageController",
+    "Method": "DeleteDetailAsync",
+    "RelativePath": "api/Package",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.PackageController",
+    "Method": "GetPackageDetail",
+    "RelativePath": "api/Package/GetDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.PackageController",
+    "Method": "CreateDetailAsync",
+    "RelativePath": "api/Package/insertDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageDetail",
+        "Type": "Laboratorios.Core.Entities.PackageDetail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.PermissionController",
+    "Method": "getPermission",
+    "RelativePath": "api/Permission",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.PermissionController",
+    "Method": "AssingPermission",
+    "RelativePath": "api/Permission/AssingPermission",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "permisos",
+        "Type": "System.Collections.Generic.List\u00601[[Laboratorios.Core.Entities.PermissionRol, Laboratorios.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.PermissionController",
+    "Method": "Delete",
+    "RelativePath": "api/Permission/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "permissionRolId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.PermissionController",
+    "Method": "InsertPermission",
+    "RelativePath": "api/Permission/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "permission",
+        "Type": "Laboratorios.Core.Entities.Permission",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.PermissionController",
+    "Method": "GetPermissionByNoRol",
+    "RelativePath": "api/Permission/PermissionByNoRol",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rolId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.PermissionController",
+    "Method": "GetPermissionByRol",
+    "RelativePath": "api/Permission/PermissionByRol",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rolId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.PermissionController",
+    "Method": "EditPermission",
+    "RelativePath": "api/Permission/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "permission",
+        "Type": "Laboratorios.Core.Entities.Permission",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.PhisycalChemistryResultsController",
+    "Method": "GetPhisycalChemistryResults",
+    "RelativePath": "api/PhisycalChemistryResults",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "date",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "analisysId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "areaId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.PhisycalChemistryResultsController",
+    "Method": "GetConfigurationResults",
+    "RelativePath": "api/PhisycalChemistryResults/GetConfigurationResults",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.PhisycalChemistryResultsController",
+    "Method": "GetQualityAssurance",
+    "RelativePath": "api/PhisycalChemistryResults/GetQualityAssurance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "analisysId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "opt",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.PhisycalChemistryResultsController",
+    "Method": "InsertPhisycalChemistryResults",
+    "RelativePath": "api/PhisycalChemistryResults/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "results",
+        "Type": "System.Collections.Generic.List\u00601[[Laboratorios.Core.ViewModels.PhisycalChemistryResultsViewModel, Laboratorios.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.ProductionOrderController",
+    "Method": "GetProductionOrder",
+    "RelativePath": "api/ProductionOrder",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "consumibles",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.ProductionOrderController",
+    "Method": "GetReportProductionsOrders",
+    "RelativePath": "api/ProductionOrder/{date},{endDate}, {status}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "date",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      },
+      {
+        "Name": "status",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.ProductionOrderController",
+    "Method": "GetProductionOrderById",
+    "RelativePath": "api/ProductionOrder/{productionOrderId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productionOrderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.ProductionOrderController",
+    "Method": "InsertProductionOrder",
+    "RelativePath": "api/ProductionOrder/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProductionOrder",
+        "Type": "Laboratorios.Core.Entities.ProductionOrder",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.ProductionOrderController",
+    "Method": "InsertProductionOrderReplicate",
+    "RelativePath": "api/ProductionOrder/insertReplicate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Laboratorios.Core.ViewModels.ProductionOrderViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.ProductionOrderController",
+    "Method": "sendGoodIssues",
+    "RelativePath": "api/ProductionOrder/sendGoodIssues",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProductionOrder",
+        "Type": "Laboratorios.Core.ViewModels.ProductionOrderOject",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.ProductionOrderController",
+    "Method": "sendProductionOrders",
+    "RelativePath": "api/ProductionOrder/sendProductionOrders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProductionOrder",
+        "Type": "Laboratorios.Core.ViewModels.ProductionOrderOject",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.QualityControlController",
+    "Method": "GetQualityControls",
+    "RelativePath": "api/QualityControl",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.QualityControlController",
+    "Method": "InsertQualityControl",
+    "RelativePath": "api/QualityControl/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "qualityControl",
+        "Type": "Laboratorios.Core.Entities.QualityControl",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.QuotationController",
+    "Method": "GetQuotation",
+    "RelativePath": "api/Quotation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "docNum",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.RecipeController",
+    "Method": "GetRecipe",
+    "RelativePath": "api/Recipe",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.RecipeController",
+    "Method": "GetProductTree",
+    "RelativePath": "api/Recipe/GetProductTree",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "treeCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.RecipeController",
+    "Method": "InsertRecipe",
+    "RelativePath": "api/Recipe/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Recipe",
+        "Type": "Laboratorios.Core.Entities.Recipe",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.RecipeController",
+    "Method": "ValidateRecipe",
+    "RelativePath": "api/Recipe/RecipeByRef",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recipe",
+        "Type": "Laboratorios.Core.Entities.Recipe",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.ReportController",
+    "Method": "GetReportInformation",
+    "RelativePath": "api/Report",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incomeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.ReportController",
+    "Method": "GetReportInformationOutsourced",
+    "RelativePath": "api/Report/{incomeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incomeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.ReportHistoryController",
+    "Method": "getHistoryRepository",
+    "RelativePath": "api/ReportHistory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Laboratorios.Core.ViewModels._ReportHistory, Laboratorios.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.ReportHistoryController",
+    "Method": "update",
+    "RelativePath": "api/ReportHistory",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reportHistory",
+        "Type": "Laboratorios.Core.Entities.ReportHistory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Laboratorios.Core.Entities.ReportHistory",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.RolesController",
+    "Method": "getRoles",
+    "RelativePath": "api/Roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.RolesController",
+    "Method": "AssingRol",
+    "RelativePath": "api/Roles/AssingRoles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roles",
+        "Type": "System.Collections.Generic.List\u00601[[Laboratorios.Core.Entities.User_Roles, Laboratorios.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.RolesController",
+    "Method": "Delete",
+    "RelativePath": "api/Roles/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRolId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.RolesController",
+    "Method": "InsertRoles",
+    "RelativePath": "api/Roles/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rol",
+        "Type": "Laboratorios.Core.Entities.Roles",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.RolesController",
+    "Method": "GetRolesByNotUser",
+    "RelativePath": "api/Roles/RolesByNotUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.RolesController",
+    "Method": "GetRolesByUser",
+    "RelativePath": "api/Roles/RolesByUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.RolesController",
+    "Method": "EditRol",
+    "RelativePath": "api/Roles/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rol",
+        "Type": "Laboratorios.Core.Entities.Roles",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.SamplesOutsourcedController",
+    "Method": "GetSamplesOutsourced",
+    "RelativePath": "api/SamplesOutsourced",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.SamplesOutsourcedController",
+    "Method": "InsertSamplesOutsourced",
+    "RelativePath": "api/SamplesOutsourced/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "samplesOutsourced",
+        "Type": "Laboratorios.Core.Entities.SamplesOutsourced",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.SamplesOutsourcedDetailController",
+    "Method": "GetSamplesOutsourcedDetail",
+    "RelativePath": "api/SamplesOutsourcedDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "outsourcedId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.SamplesOutsourcedDetailController",
+    "Method": "DeleteSamplesOutsourcedDetail",
+    "RelativePath": "api/SamplesOutsourcedDetail/DeleteSamplesOutsourcedDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "detalle",
+        "Type": "Laboratorios.Core.Entities.SamplesOutsourcedDetail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.SamplesOutsourcedDetailController",
+    "Method": "InsertSamplesOutsourcedDetail",
+    "RelativePath": "api/SamplesOutsourcedDetail/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "samplesOutsourcedDetail",
+        "Type": "Laboratorios.Core.Entities.SamplesOutsourcedDetail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.SamplesOutsourcedResultController",
+    "Method": "GetSamplesOutsourcedResults",
+    "RelativePath": "api/SamplesOutsourcedResult",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "outsourcedId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.SamplesOutsourcedResultController",
+    "Method": "InsertSamplesOutsourcedResult",
+    "RelativePath": "api/SamplesOutsourcedResult",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SamplesOutsourcedResult",
+        "Type": "System.Collections.Generic.List\u00601[[Laboratorios.Core.Entities.SamplesOutsourcedResult, Laboratorios.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.SamplesOutsourcedResultController",
+    "Method": "GetSamplesOutsourcedResultViews",
+    "RelativePath": "api/SamplesOutsourcedResult/{outsourcedId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "outsourcedId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.SampleTypeController",
+    "Method": "GetSampleType",
+    "RelativePath": "api/SampleType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.SampleTypeController",
+    "Method": "EditSampleType",
+    "RelativePath": "api/SampleType/edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sampleType",
+        "Type": "Laboratorios.Core.Entities.SampleType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.SampleTypeController",
+    "Method": "InsertSampleType",
+    "RelativePath": "api/SampleType/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sampleType",
+        "Type": "Laboratorios.Core.Entities.SampleType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.ShelvesController",
+    "Method": "GetShelves",
+    "RelativePath": "api/Shelves",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.ShelvesController",
+    "Method": "InsertShelves",
+    "RelativePath": "api/Shelves/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Shelves",
+        "Type": "Laboratorios.Core.Entities.Shelves",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.SubAnalisysController",
+    "Method": "GetSubAnalisys",
+    "RelativePath": "api/SubAnalisys",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.SubAnalisysController",
+    "Method": "insert",
+    "RelativePath": "api/SubAnalisys",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SubAnalisys",
+        "Type": "Laboratorios.Core.Entities.SubAnalisys",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.TableNMPController",
+    "Method": "GetTables",
+    "RelativePath": "api/TableNMP",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.TableNMPController",
+    "Method": "EditTable",
+    "RelativePath": "api/TableNMP/edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tableNMP",
+        "Type": "Laboratorios.Core.Entities.TableNMP",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.TableNMPController",
+    "Method": "InsertTable",
+    "RelativePath": "api/TableNMP/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tableNMP",
+        "Type": "Laboratorios.Core.Entities.TableNMP",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.TableNMPDetailController",
+    "Method": "GetTables",
+    "RelativePath": "api/TableNMPDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.TableNMPDetailController",
+    "Method": "GetTables",
+    "RelativePath": "api/TableNMPDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "table",
+        "Type": "Laboratorios.Core.Entities.TableNMP",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.TableNMPDetailController",
+    "Method": "DeleteIncomeDetail",
+    "RelativePath": "api/TableNMPDetail/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tableNMPDetail",
+        "Type": "Laboratorios.Core.Entities.TableNMPDetail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.TableNMPDetailController",
+    "Method": "EditTable",
+    "RelativePath": "api/TableNMPDetail/edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tableNMPDetail",
+        "Type": "Laboratorios.Core.Entities.TableNMPDetail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.TableNMPDetailController",
+    "Method": "InsertTable",
+    "RelativePath": "api/TableNMPDetail/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tableNMPDetail",
+        "Type": "Laboratorios.Core.Entities.TableNMPDetail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EJ2FileManagerServices.Controllers.TestController",
+    "Method": "Get",
+    "RelativePath": "api/Test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EJ2FileManagerServices.Controllers.TestController",
+    "Method": "Post",
+    "RelativePath": "api/Test",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EJ2FileManagerServices.Controllers.TestController",
+    "Method": "Get",
+    "RelativePath": "api/Test/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EJ2FileManagerServices.Controllers.TestController",
+    "Method": "Put",
+    "RelativePath": "api/Test/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "value",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EJ2FileManagerServices.Controllers.TestController",
+    "Method": "Delete",
+    "RelativePath": "api/Test/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.UnitOfMeasurementController",
+    "Method": "GetUnitOfMeasurement",
+    "RelativePath": "api/UnitOfMeasurement",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.UnitOfMeasurementController",
+    "Method": "EditUnitOfMeasurement",
+    "RelativePath": "api/UnitOfMeasurement/edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "unitOfMeasurement",
+        "Type": "Laboratorios.Core.Entities.UnitOfMeasurement",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.UnitOfMeasurementController",
+    "Method": "InsertUnitOfMeasurement",
+    "RelativePath": "api/UnitOfMeasurement/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "unitOfMeasurement",
+        "Type": "Laboratorios.Core.Entities.UnitOfMeasurement",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.UserController",
+    "Method": "InsertUser",
+    "RelativePath": "api/User/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Usuario",
+        "Type": "Laboratorios.Core.Entities.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.UserController",
+    "Method": "EditUser",
+    "RelativePath": "api/User/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Usuario",
+        "Type": "Laboratorios.Core.Entities.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.VendorAssessmentController",
+    "Method": "GetAllVendorAssessment",
+    "RelativePath": "api/VendorAssessment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.VendorAssessmentController",
+    "Method": "GetVendorAssessment",
+    "RelativePath": "api/VendorAssessment/GetVendorAssessmentById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.VendorAssessmentController",
+    "Method": "InsertVendorAssessment",
+    "RelativePath": "api/VendorAssessment/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assessment",
+        "Type": "Laboratorios.Core.Entities.VendorAssessment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.VendorsController",
+    "Method": "GetVendors",
+    "RelativePath": "api/Vendors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "date",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "assessmentType",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LaboratoriosApi.Controllers.VendorsController",
+    "Method": "InsertVendors",
+    "RelativePath": "api/Vendors/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vendors",
+        "Type": "Laboratorios.Core.Entities.Vendors",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
